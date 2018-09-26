@@ -12,6 +12,6 @@ node{
     sh 'mvn test'
 }
 
-dir('/var/lib/tomcat8/webapps/CalculatorApp_warfile.war') {
+dir('/var/lib/tomcat8/webapps/') {
     // some block
 }

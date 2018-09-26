@@ -11,3 +11,7 @@ node{
     checkout scm
     sh 'mvn test'
 }
+
+dir('/var/lib/tomcat8/webapps/CalculatorApp_warfile.war') {
+    // some block
+}
